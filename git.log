@@ -1,0 +1,61 @@
+
+
+#################################################################
+
+############## zoe - 02/14/20 17:54:01 EST -0500 ##############
+
+#################################################################
+
+
+GitHub:
+
+Already up to date.
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'scc@zoe.(none)')
+
+
+#################################################################
+
+############## zoe - 02/14/20 17:54:53 EST -0500 ##############
+
+#################################################################
+
+
+GitHub:
+
+Already up to date.
+[zoe-data 74f9758] 02/14/20 17:54:53 EST -0500: Git Backup
+ 1 file changed, 17 insertions(+)
+ create mode 100644 ping.data
+
+
+#################################################################
+
+############## zoe - 02/14/20 17:55:40 EST -0500 ##############
+
+#################################################################
+
+
+GitHub:
+
+Already up to date.
+[zoe-data e737e68] 02/14/20 17:55:40 EST -0500: Git Backup
+ 1 file changed, 16 insertions(+), 17 deletions(-)
+ rewrite ping.data (84%)
+To https://github.com/CareyLabVT/SCCData.git
+   6b637ac..e737e68  zoe-data -> zoe-data
+
+
+Gateway:
+
+Already up to date.
