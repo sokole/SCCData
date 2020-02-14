@@ -59,3 +59,9 @@ To https://github.com/CareyLabVT/SCCData.git
 Gateway:
 
 Already up to date.
+[zoe-logs bf38d30] 02/14/20 17:55:40 EST -0500: Logs
+ 2 files changed, 77 insertions(+)
+ create mode 100644 autossh.log
+ create mode 100644 git.log
+To https://github.com/CareyLabVT/SCCData.git
+   6b637ac..bf38d30  zoe-logs -> zoe-logs
