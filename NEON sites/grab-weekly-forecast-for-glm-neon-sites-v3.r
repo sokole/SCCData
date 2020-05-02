@@ -57,8 +57,10 @@ for(lake_index in 1:length(lake_name_list)){
       
       for(m in 1:length(model_list)){
         
-        file_present_local <- file.exists(paste0(directory, lake_name_list[lake_index], '/', lake_name_list[lake_index], '_', run_date, '_', model_list[m], '.csv'))
-        print(paste0(directory, lake_name_list[lake_index], '/', lake_name_list[lake_index], '_', run_date, '_', model_list[m], '.csv is already downloaded: ', file_present_local))
+        file_path <- paste0(directory, "/", lake_name_list[lake_index], "/", lake_name_list[lake_index], "_", run_date, "_", model_list[m], '.csv')
+        
+        file_present_local <- file.exists(file_path)
+        print(paste0(file_path, ' is already downloaded: ', file_present_local))
         
         #Check if already downloaded
         if(!file_present_local){
@@ -137,7 +139,7 @@ for(lake_index in 1:length(lake_name_list)){
             
             readr::write_csv(
               forecast_noaa, 
-              path = paste0(directory, "/", lake_name_list[lake_index], "/", lake_name_list[lake_index], "_", run_date, "_", model_list[m], '.csv'))
+              path = file_path)
             
           }
         }
